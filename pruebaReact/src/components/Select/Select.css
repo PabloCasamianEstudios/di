@@ -1,0 +1,13 @@
+select {
+  padding: 12px 20px;
+  border-radius: 50px;
+  background-size: 400% 400%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(224, 21, 180, 0.5);
+  outline: none;
+  width: 250px;
+  cursor: pointer;
+}
+
