@@ -1,0 +1,11 @@
+img {
+    border-radius: 20px;
+
+    transition: all 0.2s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border: 3px blue solid;
+    filter: saturate(2)
+}
