@@ -9,6 +9,10 @@ export default function InputUseState() {
         setName(e.target.value);
     }
     function handleChangeAge(e : React.ChangeEvent<HTMLInputElement>) {
+        if (isNaN(e.target.valueAsNumber))  {
+            setAge(0) 
+            return;
+        }
         setAge(e.target.valueAsNumber);
     }
 

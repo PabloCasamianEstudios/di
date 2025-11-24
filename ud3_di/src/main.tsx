@@ -1,14 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import InputUseState from "./components/InputUseState/InputUseState";
+import FormUseState from "./components/FormUseState/FormUseState";
 
 
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
 
-    <InputUseState />
+    <FormUseState />
 
     </StrictMode>
 );
